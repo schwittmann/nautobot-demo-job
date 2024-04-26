@@ -7,6 +7,7 @@ class DummyJob(Job):
     def run(self):
         self.logger.info("Job output 1")
         self.logger.info("Job output 2")
+        self.logger.info("Job output 2")
         return "Success!"
 
 register_jobs(DummyJob)
